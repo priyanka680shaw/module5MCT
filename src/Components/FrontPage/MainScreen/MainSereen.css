@@ -1,0 +1,132 @@
+
+/* Main container */
+.MainCotainer{
+    width:100%;
+    background-color: aqua;
+    display: flex;
+   
+}
+
+.MainScreenLeftContainer{
+    min-width: 250px;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    border-right: 1px solid rgb(161, 155, 155);
+    font-size: 14px;
+    padding-top: 5px;
+}
+
+.MainScreenRightContainer{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    overflow-y: scroll;
+}
+
+/*************************Main Container End ******************************/
+
+/*Div 1 styling */
+
+.outerDivContainerAside{
+    width: 100%;
+    
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 0px;
+    /* border: 2px solid black; */
+}
+
+.innerDivContainerAside{
+    width: 95%;
+    padding: 3px 0px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.userProfile{
+    display: flex;
+    /*justify-content: center;*/
+    align-items: center;
+}
+
+.userProfile:hover{
+    background-color: rgb(240, 238, 235);
+    padding-right: 10px;
+}
+
+.profileIcon{
+    width: 35px;
+    height: 35px;
+    background-color: rgb(232, 232, 16);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.dropownIconUP{
+    font-size: 12px;
+    margin-left: 8px;
+}
+
+.notification{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.notificationUser{
+    font-size: 1rem;
+    /* margin: 0px 10px; */
+    padding: 3px 6px;
+}
+
+.notificationUser:hover{
+    background-color: rgb(240, 238, 235);
+   
+    border-radius: 8px;
+}
+
+/****************************Div1 end**************************************/
+
+/*Div 2 styling */
+
+.searchIconInput{
+    width: 100%;
+    border: 1px solid rgb(216, 209, 209);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.searchIcon , .recentIcon{
+    margin: 10px 5px 5px 5px ;
+}
+
+.asideInputBox{
+    width: 200px;
+    border: none;
+}
+
+input:focus {
+    outline: none;
+}
+/**/
+.recent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80px;
+}
+
+.draft:hover{
+    background-color: rgb(240, 238, 235);
+    width: 100%;
+}
+
+/*****************************************************************************************************/

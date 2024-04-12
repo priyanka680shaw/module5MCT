@@ -1,0 +1,61 @@
+.nav1OuterContainer ,.nav2OuterContainer{
+    min-width: 400px;
+    padding: 12px ;
+    border-bottom: 2px solid gray;
+
+}
+
+.nav1InnerContainer , .nav2InnerContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav1buttons,.nav2buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button{
+    margin: 0px 10px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+}
+
+/*nav2*/
+.nav2leftMenu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+
+.nav2recent{
+    margin: 0px 15px 0px 0px; 
+
+}
+
+.nav2buttons>button{
+    margin: 0px 10px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    font: optional;
+    background-color: white;
+}
+p{
+    font-size: 12px;
+}
+
+.iconsSize{
+    font-size: 10px;
+    margin-left: 5px;
+}

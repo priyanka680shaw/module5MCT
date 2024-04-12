@@ -1,0 +1,52 @@
+ /* .displayItems{
+    display: flex;
+    justify-content: ;
+    align-items: center;
+ } */
+ 
+ .desineNavOuter {
+    width: 100%;
+    padding: 10px 5px;
+    background-color: black;
+
+ }
+
+ .desineNavInner{
+    width: 100%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+ }
+
+ .desineNavInner1contaier{
+    display: flex;
+ }
+
+ .detailsNavIconBar{
+    color: white;
+    margin: 0px 5px;
+ }
+
+ .detailsnavIcinSize{
+    font-size: 18px;
+    margin: 0px 3px;
+    font-weight: 100;
+ }
+
+.desineNavInner3contaier{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profilepShow , .profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.detailsnavIcinSizeArrow{
+    margin: 0px 2px;
+}
